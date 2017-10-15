@@ -68,7 +68,7 @@ __Note: All shaders in Unity are written in language called "ShaderLab." Shaderl
 
 To start we'll add this code:
 
-```
+```python
 Shader "Unlit/Tutorial_Shader" {
 	...
 }
@@ -76,7 +76,7 @@ Shader "Unlit/Tutorial_Shader" {
 These lines of code just specify where the shader code is. The string in quotes after the *Shader* keyword specify to Unity where you'll find the shader.
 
 For example:
-```hlsl
+```glsl
 Shader "A/B/C/D/E_Shader" {
 	...
 }
